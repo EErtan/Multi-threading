@@ -3,7 +3,7 @@ package threadSync;
 import java.util.Scanner;
 
 // stops the thread from caching values
-// allows other threads to access to the data
+// allows other threads to access the most recent version of the data
 
 class AThread extends Thread{
 	private volatile boolean isRunning = true;

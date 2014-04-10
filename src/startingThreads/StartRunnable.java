@@ -31,8 +31,8 @@ public class StartRunnable{
 				for(int i = 0; i<10; ++i){
 					System.out.println(id + "Thread Started: i = " + i);
 					try{
-						Thread.sleep(100);
-					}catch(InterruptedException e){ e.printStackTrace();}
+						Thread.sleep(100); // not a precise measure as in can be interrupted by the os
+					}catch(InterruptedException e){ e.printStackTrace();} // interrupt is when the thread stops and does something else
 				}
 			}
 		}).start();
