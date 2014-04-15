@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
-// using the put and take from the brockingqueue class, the methods will be initiated at the 
+// using the put and take from the blockingqueue class, the methods will be initiated at the 
 // next possible instance
 
 public class BlockingQueues {
