@@ -5,7 +5,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 
-class DataObj{
+class DataObj{ // where lock replaces the synch methods, cond replaces the use of object monitor methods
 
 	private int 		count 	= 	0;
 	private Lock 		l 		= 	new ReentrantLock();
