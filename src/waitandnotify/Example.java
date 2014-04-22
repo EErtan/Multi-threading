@@ -1,7 +1,7 @@
 package waitandnotify;
 
 import java.util.LinkedList;
-
+// playing around with spacing
 class DataObj{
 	
 	private 		LinkedList<Integer> ll 		= 	new	LinkedList();
